@@ -26,8 +26,14 @@ log (by default = False) - if TRUE, the target variable will be logarithmised be
 
 rm_neg (by default = False) if TRUE, all negative values will be marked as outliers
 
+
 Possible issues:
+
  N/0 = Inf
+ 
  -N/0 = -Inf
+ 
  log(0) = Inf
+ 
  log(-N) = NaN (Not-a-Number)
+ 
